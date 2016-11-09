@@ -23,7 +23,7 @@ global CALL_MODE;
 
 savemode=0;
 
-bdir='/Users/danielfeuerriegel/Desktop/DDTBOX Project/MVPA_WORKSHOP';
+bdir='/Users/danielfeuerriegel/Desktop/DDTBOX Project/MVPA_WORKSHOP/';
 output_dir='/Users/danielfeuerriegel/Desktop/DDTBOX Project/MVPA_WORKSHOP/DECODING_RESULTS/preanalysed/';
 
 % subject codes/names
