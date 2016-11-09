@@ -74,7 +74,7 @@ sn=SBJTODO;
     SLIST.extra=0;
     
     % sampling rate and baseline
-    SLIST.sampling_rate=1000;
+    SLIST.sampling_rate=250;
     SLIST.pointzero=100; % corresponds to zero (time-locked to this event, in ms)
      
         
