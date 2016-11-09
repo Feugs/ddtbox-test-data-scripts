@@ -26,7 +26,7 @@ IDs_to_process = [1:5 7:12 14 16:22]; % Full dataset [1:5 7:12 14 16:22]
 % 2 = Chairs
 bins_to_extract = [1, 2];
 
-save_dir_name = 'DDTBox Data';
+save_dir_name = 'DDTBox Test Dataset';
 
 
 
