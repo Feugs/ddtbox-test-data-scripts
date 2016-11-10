@@ -66,9 +66,9 @@ sn=SBJTODO;
     SLIST.data_struct_name='eeg_sorted_cond';
     
     % channels    
-    SLIST.nchannels=64;
+    SLIST.nchannels=62;
     SLIST.channels='channel_labels';
-    SLIST.channel_names_file='channel_inf.mat';
+    SLIST.channel_names_file='channel_inf_test_dataset.mat';
     SLIST.channellocs=[bdir 'locations\'];
     SLIST.eyes=[];
     SLIST.extra=0;
