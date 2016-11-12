@@ -59,6 +59,10 @@ for ID = IDs_to_process
     % Copy epochs from each condition into the DDTBox-compatible array
     for condition = bins_to_extract  
         eeg_sorted_cond{1, condition}(:,:,:) = EEG.data(:,:, bin_inds_by_epoch == condition);  
+        
+        % Rearrange data dimension to suit DDTBox organisation (different to
+        % that used by EEGLab)
+        eeg_sorted_cond{1, condition} = permute(eeg_sorted_cond{1, condition}(:,:,:), [2 1 3]);
     end % of for condition
     
     % Save resulting dataset
